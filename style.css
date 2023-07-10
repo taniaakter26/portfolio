@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	background: #0F2027;
+	background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    padding: 150px 0px;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+h1{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 900;
+}
+h2{
+	margin: 0;
+	font-size: 25px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+p{
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+}
+span{
+	color: #007cff;
+}
+.gallery{
+	padding: 100px 0;
+}
+.flex{
+	display: flex;
+	gap:40px;
+}
+img{
+	max-width: 100%;
+}
+.column-3{
+	width: 33.33%;
+	background: #0F2027;
+	background: rgb(22,39,55);
+	background: linear-gradient(322deg, rgba(22,39,55,1) 0%, rgba(233,165,148,1) 100%);
+	padding: 25px;
+	color: #fff;
+	border-radius: 12px;
+}
+.column-3 p{
+	font-size: 18px;
+
+}
+h3{
+	font-size: 24px;
+}
+.column-2{
+	width: 50%;
+}
+img{
+	max-width: 100%;
+}
+.galleryImg{
+	border-radius: 20px;
+	/*border: #000 solid 5px;*/
+}
+.blog{
+	background: #0F2027;
+	background: rgb(174,206,238);
+    background: radial-gradient(circle, rgba(174,206,238,1) 0%, rgba(233,165,148,1) 100%);
+    padding: 100px 0;
+}
